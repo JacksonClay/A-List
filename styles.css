@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+.background-image {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+    background-image: url(https://i.imgur.com/kivARsv.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+h2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Dancing Script, cursive;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+
+}
+
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color:#89FC00;
+}
+
+
+
+#shadow-p {
+  background-color: #282A26;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 25px;
+  opacity: 65%;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Dancing Script, cursive;
+}
+
+.team-section {
+  margin-top: 75px;
+}
+.team-title h1 {
+  font-size: 50px;
+  color:#89FC00;
+  text-align: center;
+  position:relative;
+}
+ .team-cards {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+ }
+ .team-card {
+  background-color: #282A26;
+  border-radius: 50px;
+  box-shadow: 0px 2px 5px rbga(0,0,0 0.2);
+  margin: 0px 20px;
+  padding: 20px;
+  color:#89FC00;
+  text-align: center;
+  transition: transform 0.6s ease;
+  width: calc(33.33% - 20px)
+ }
+
+ .team-card:hover {
+  transform: translateY(-12px);
+ }
+
+ .team-image img{
+  border-radius: 50%;
+  height: 150px;
+  width: 130px;
+
+ }
+
+ .team-detail h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 15px 0px;
+ }
+
+ .team-detail p {
+  color: #89FC00;
+  font-size: 18px;
+ }
+ @media screen and (max-width:768px){
+  .team-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-card{
+    width: 85%;
+    margin: 25px auto;
+  }
+ }
