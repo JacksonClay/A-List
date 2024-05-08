@@ -33,7 +33,8 @@ h2{
   font-optical-sizing: auto;
   font-weight:bolder;
   font-style: normal;
-
+  opacity: 75%;
+  font-size: 50px;
 }
 
 a {
@@ -66,7 +67,7 @@ a:hover {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Dancing Script, cursive;
+  font-family: impact, fantasy;
 }
 
 .team-section {
